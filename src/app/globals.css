@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 100dvh;
+}
+
+.contain {
+  background-color: var(--bg);
+  color: var(--textPrimary);
+}
+
+.dark {
+  --bg: #131314;
+  --bgSecondary: #1e1f20;
+  --textPrimary: #f1f1f1;
+  --bgHover: #3b3a3a;
+}
+
+.light {
+  --bg: #f1f1f1;
+  --bgSecondary: #ebebeb;
+  --textPrimary: #0f0f0f;
+  --bgHover: #d3d3d3;
+}
+
+.width{
+  width: 200px;
+}
